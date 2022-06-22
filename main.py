@@ -8,9 +8,6 @@ if __name__ == '__main__':
     linkedin_driver = None
     indeed_driver = None
 
-    # TODO: write display messages in terminal for what's happening
-    # TODO: ex: make sure the urls in urls.txt are good and resume is in root
-
     print(
         """
         Starting Cover Letter Writer...\n
@@ -29,10 +26,6 @@ if __name__ == '__main__':
                     linkedin_driver = LinkedinDriver(debug=DEBUG)
                     linkedin_driver.login()
                 d = linkedin_driver
-            # elif 'indeed' in url:
-            #     if indeed_driver is None:
-            #         indeed_driver = IndeedDriver(debug=DEBUG)
-            #     d = indeed_driver
             else:
                 if driver is None:
                     driver = Driver(debug=DEBUG)
