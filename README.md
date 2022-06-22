@@ -9,7 +9,7 @@
 2) `$ cd cover-letter-writer` to get into root directory of project
 3) `$ python3 -m venv venv` to create virtual environment
 4) `$ source venv/bin/activate` (mac and linux) `$ venv\Scripts\activate` (windows) to activate environment
-5) `$ python3 -m pip install -r requirements.txt` to install dependencies
+5) `$ pip install -r requirements.txt` to install dependencies
 6) `$ python3 main.py` to run the program
 
 ## Tip
