@@ -1,0 +1,10 @@
+# folders
+output/*
+!output/.gitkeep
+
+tmp/*
+!tmp/.gitkeep
+
+geckodriver.log
+__pycache__/*
+.idea/*
