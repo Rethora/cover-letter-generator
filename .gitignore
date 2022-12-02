@@ -8,3 +8,4 @@ tmp/*
 geckodriver.log
 __pycache__/*
 .idea/*
+venv
